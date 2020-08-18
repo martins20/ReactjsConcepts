@@ -33,6 +33,7 @@ function App() {
     const { data } = await api.post("/repositories", repositorie);
 
     setRepositories([...repositories, data]);
+    setCount(count + 1);
   }
 
   async function handleRemoveRepository(id) {
@@ -42,7 +43,6 @@ function App() {
     );
 
     setRepositories(updatedRepositories);
-    setCount(count - 1);
   }
 
   return (
