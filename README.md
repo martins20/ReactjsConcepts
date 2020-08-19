@@ -26,6 +26,12 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+<div align="center">
+  
+  <img src="./assets/RepositoryList.gif" width="350px" alt="Gif"/>
+  
+ </div>
+
 ## :rocket: Sobre o desafio
 
 Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
